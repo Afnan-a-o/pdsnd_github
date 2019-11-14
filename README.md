@@ -1,5 +1,4 @@
-### Date created
-Include the date you created this project and README file.
+### Created On 11/14/2019
 
 ### BikeShare project
 
