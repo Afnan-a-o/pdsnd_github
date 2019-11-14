@@ -288,5 +288,5 @@ def program(): #The Main funtion that holds all operations
 
 
 if __name__ == "__main__":
-    print("Welcome")
+    print("Welcome") #Message
 	program() #start the program with this function to let the user choose city and other filters
