@@ -270,7 +270,7 @@ def program(): #The Main funtion that holds all operations
         # get the counts of gender
         gender(df_filtered)
         print("That took %s seconds." % (time.time() - start_time)) #print the current time - time before execution then we get time it took
-        print("\nCalculating ...")
+        print("\nCalculating Now...")
         start_time = time.time() #Save current time before execution
         # get tge birth years info "min,max,most popular"
         birth_years(df_filtered)
@@ -288,4 +288,5 @@ def program(): #The Main funtion that holds all operations
 
 
 if __name__ == "__main__":
+    print("Welcome") #Message
 	program() #start the program with this function to let the user choose city and other filters
